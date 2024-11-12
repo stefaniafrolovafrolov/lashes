@@ -1,0 +1,132 @@
+.banner-questions {
+  background-image: url(./images/questionsMaster.png);
+  width: 1280px;
+  height: 633px;
+  background-size: cover;
+}
+
+.banner-questions__title {
+  font-family: Great Vibes;
+  font-size: 90px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 90px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  margin: 0;
+  color: #fff;
+  padding: 130px 0 0 40px;
+}
+
+.answers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.answers__container {
+  max-width: 1120px;
+  padding-top: 50px;
+}
+
+.answers__wpapper {
+  min-height: 200px;
+  margin-bottom: 30px;
+}
+
+.answers__title {
+  font-family: Great Vibes;
+  font-size: 64px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 54px;
+  text-align: left;
+  margin: 0;
+  color: #ff0080;
+  margin-bottom: 40px;
+  max-width: 1121px;
+}
+
+.answers__text {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.2px;
+  text-align: left;
+  margin: 0;
+  color: #fff;
+}
+
+.answers__text_margin {
+  margin-bottom: 30px;
+}
+
+.answers__lists {
+  list-style: none;
+  padding: 0;
+}
+
+.answers__item {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.2px;
+  text-align: left;
+  margin: 0;
+  color: #fff;
+}
+
+@media screen and (max-width: 320px) {
+  .banner-questions {
+    background-image: url(./images/questionsMaster-mobile.png);
+    background-position: center;
+    width: 320px;
+    height: 280px;
+  }
+
+  .banner-questions__title {
+    padding: 55px 0 0 10px;
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  /*.answers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }*/
+
+  .answers__container {
+    max-width: 300px;
+    padding-top: 20px;
+  }
+
+  .answers__wpapper {
+    min-height: 200px;
+    margin-bottom: 30px;
+  }
+
+  .answers__title {
+    margin-bottom: 20px;
+    max-width: 300px;
+    font-family: Great Vibes;
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .answers__text {
+    font-size: 12px;
+    line-height: 14.52px;
+  }
+
+  .answers__text_margin {
+    margin-bottom: 20px;
+  }
+
+  .answers__item {
+    font-size: 12px;
+    line-height: 14.52px;
+  }
+}
