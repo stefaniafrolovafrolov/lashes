@@ -143,6 +143,74 @@
   color: #ffffffbf;
 }
 
+@media screen and (max-width: 834px) {
+  .prices__title {
+    padding: 30px 0 30px 0;
+    font-size: 36px;
+  }
+
+  .prices__arrow-right {
+    display: none;
+  }
+
+  .prices__arrow-left {
+    bottom: 380px;
+    left: 70px;
+  }
+
+  .prices__signup {
+    bottom: 490px;
+    left: 65px;
+    font-size: 28px;
+  }
+
+  .prices__text {
+    max-width: 588px;
+    padding-top: 40px;
+    font-size: 40px;
+  }
+  .prices__paragraph {
+    padding-top: 40px;
+    max-width: 794px;
+  }
+
+  .prices__button {
+    width: 774px;
+  }
+
+  .prices__wrapper_flex {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .prices__wrapper {
+    width: 250px;
+    display: flex;
+    align-items: center;
+  }
+
+  .prices__icon {
+    width: 33px;
+    height: 33px;
+  }
+
+  .prices__titleButton {
+    margin: 0;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .prices__titleButton_subtitle {
+    color: #ffffffbf;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .prices__title {
     padding: 30px 0 30px 0;

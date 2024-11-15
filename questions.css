@@ -77,6 +77,64 @@
   color: #fff;
 }
 
+@media screen and (max-width: 834px) {
+  .banner-questions {
+    background-image: url(./images/questionsMaster-tablet.png);
+    background-position: center;
+    width: 834px;
+    height: 600px;
+  }
+
+  .banner-questions__title {
+    padding: 145px 0 0 10px;
+    font-size: 64px;
+    font-weight: 400;
+  }
+
+  /*.answers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }*/
+
+  .answers__container {
+    max-width: 794px;
+    padding-top: 50px;
+  }
+
+  .answers__wpapper {
+    min-height: 100px;
+    margin-bottom: 30px;
+  }
+
+  .answers__title {
+    margin-bottom: 20px;
+    max-width: 795px;
+
+    font-size: 48px;
+    line-height: 24px;
+  }
+
+  .answers__text {
+    font-size: 14px;
+    line-height: 16.94px;
+  }
+
+  .answers__text_margin {
+    margin-bottom: 20px;
+  }
+
+  .answers__item {
+    font-size: 14px;
+    line-height: 16.94px;
+  }
+
+  .registration_margin {
+    padding-top: 0;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .banner-questions {
     background-image: url(./images/questionsMaster-mobile.png);

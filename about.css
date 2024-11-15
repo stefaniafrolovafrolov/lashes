@@ -132,7 +132,7 @@
 }
 
 .certificates__title {
-  font-family: Monotype Corsiva;
+  font-family: Great Vibes;
   font-size: 96px;
   font-style: italic;
   font-weight: 400;
@@ -222,6 +222,147 @@
 
 .registration_margin {
   padding-bottom: 60px;
+}
+
+@media screen and (max-width: 834px) {
+  .master {
+    /* display: flex;
+    align-items: center;
+    justify-content: space-around;*/
+    /*outline: 7px solid greenyellow;*/
+  }
+
+  .master__wrapper {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;*/
+  }
+
+  /*.master__wrapper_container {
+    display: flex;
+  
+    align-items: center;
+  }*/
+
+  .master__title {
+    font-size: 64px;
+    max-width: 320px;
+    align-self: flex-start;
+  }
+
+  .master__foto {
+    width: 340px;
+    height: 423px;
+    margin: 0 auto;
+  }
+
+  .master__text {
+    max-width: 435px;
+    font-size: 15px;
+  }
+
+  .master__text_margin {
+  }
+
+  .my-views {
+    padding-top: 150px;
+    background-image: url(./images/fon-advantage-tablet.png);
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -20px;
+  }
+  .my-views__wrapper {
+    width: 794px;
+    min-height: 130px;
+    margin-bottom: 30px;
+    outline: 5px blue solid;
+  }
+  .my-views__title {
+    margin-bottom: 30px;
+    font-size: 15px;
+  }
+  .my-views__text {
+    font-size: 15px;
+    line-height: 20px;
+    text-align: left;
+    max-width: 656px;
+    margin-left: auto;
+  }
+
+  .my-views__text_margin {
+    margin-bottom: 25px;
+  }
+
+  .my-views__paragraph {
+    font-size: 20px;
+    max-width: 794px;
+    text-align: center;
+  }
+
+  .my-views__slogan {
+    display: none;
+    /* width: 781px;
+    height: 120px;
+    background-image: url(./images/slogan-tablet.png);
+    background-size: cover;
+    object-fit: cover;
+    background-position: top;*/
+    /*padding-top: 40px;*/
+  }
+
+  .my-views__sloganText {
+    display: flex;
+    font-family: Great Vibes;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 50px;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    max-width: 761px;
+    margin-top: 20px;
+
+    text-shadow: 1px 1px 2px #ff027b, 0 0 1em rgb(228, 17, 228),
+      0 0 0.2em rgb(195, 0, 255);
+
+    color: white;
+  }
+
+  .certificates {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    outline: 5px rgb(16, 80, 175) solid;
+  }
+
+  .certificates__container {
+    outline: 5px red solid;
+  }
+
+  .certificates__title {
+    max-width: 401px;
+    padding-bottom: 40px;
+    font-size: 64px;
+  }
+
+  .certificates__text {
+    max-width: 408px;
+    font-size: 15px;
+    line-height: 18.15px;
+  }
+
+
+
+
+
+
+
+
+  
 }
 
 @media screen and (max-width: 320px) {
