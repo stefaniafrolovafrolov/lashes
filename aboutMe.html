@@ -1,6 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="
+      Ознакомьтесь с моими работами по ламинированию, стрейчингу, ботоксу,
+      окрашиванию ресниц и бровей в студии красоты ЛамиКо в г. Коломне. Акции при первом посещении и не только!
+      Записаться на процедуру можно
+      на сайте или позвонив по телефону"
+    />
+    <meta
+      name="keywords"
+      content="
+      Стрейчинг ресниц в г. Коломна,
+      О мастере по ламинированию ресниц,
+      Мои работы в фотогалерее,
+      Записаться на процедуру на сайте или по телефону
+     "
+    />
+    <meta
+      property="
+    og:title"
+      content="
+    О мастере по ламинированию, стрейчингу, ботоксу и окрашиванию ресниц и бровей
+    в г. Коломна в студии красоты Ламико"
+    />
     <link rel="shortcut icon" href="/images/favicon.png" type="image/png" />
     <link href="./main.css" rel="stylesheet" />
     <link href="./about.css" rel="stylesheet" />
@@ -8,31 +35,44 @@
     <link href="./fonts/Vibes/stylesheet.css" rel="stylesheet" />
     <link href="./fonts/Caption/stylesheet.css" rel="stylesheet" />
     <link href="./normalize.css" type="text/css" rel="stylesheet" />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>
+      Сделать Стрейчинг ресниц в Коломне по выгодной цене | студия красоты
+      ЛамиКо
+    </title>
   </head>
   <body>
     <div class="page">
       <div class="page__content">
         <header class="header">
-          <div class="header__logo">
-            <p class="header__lamiKo">ЛамиКо</p>
-            <div class="header__border"></div>
-            <p class="header__text">Ламинирование ресниц в Коломне</p>
-          </div>
-
-          <ul class="header__lists">
-            <li class="header__item">Главная</li>
-            <li class="header__item">О мастере</li>
-            <li class="header__item">Прайс лист</li>
-            <li class="header__item">Вопросы</li>
-            <li class="header__item">Контакты</li>
-          </ul>
-
-          <button class="header__button">
-            <p class="header__textTelephone">Позвонить</p>
-          </button>
+          <a class="header__link" href="./index.html">
+            <div class="header__logo">
+              <p class="header__lamiKo">ЛамиКо</p>
+              <div class="header__border"></div>
+              <p class="header__text">Ламинирование ресниц в Коломне</p>
+            </div>
+          </a>
+          <nav class="header__navigation">
+            <ul class="header__lists">
+              <li class="header__item">
+                <a class="header__link" href="./index.html">Главная</a>
+              </li>
+              <li class="header__item">
+                <a class="header__link" href="./aboutMe.html">О мастере</a>
+              </li>
+              <li class="header__item">
+                <a class="header__link" href="./prices.html">Прайс лист</a>
+              </li>
+              <li class="header__item">
+                <a class="header__link" href="./questions.html">Вопросы</a>
+              </li>
+              <li class="header__item">
+                <a class="header__link" href="./contacts.html">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <a href="tel:+79168829426" class="header__button">
+            <span class="header__textTelephone">Позвонить</span>
+          </a>
         </header>
 
         <header class="header-mobile">
@@ -43,13 +83,17 @@
           </div>
 
           <div class="hamburger-menu">
-            <input class="hamburger-menu__toggle" id="hamburger-menu__toggle" type="checkbox" />
+            <input
+              class="hamburger-menu__toggle"
+              id="hamburger-menu__toggle"
+              type="checkbox"
+            />
             <div class="hamburger-menu__wrapper"></div>
             <label class="hamburger-menu__button" for="hamburger-menu__toggle">
               <span></span>
             </label>
 
-            <ul class="hamburger-menu__box">
+            <div class="hamburger-menu__box">
               <div class="hamburger-menu__logoAbsolut">
                 <div class="header__logo">
                   <p class="header__lamiKo">ЛамиКо</p>
@@ -57,36 +101,37 @@
                   <p class="header__text">Ламинирование ресниц в Коломне</p>
                 </div>
               </div>
-
-              <div class="hamburger-menu__container">
-                <li>
-                  <a
-                    class="hamburger-menu__item hamburger-menu__item_padding"
-                    href="./index.html"
-                    >Главная</a
-                  >
-                </li>
-                <li>
-                  <a class="hamburger-menu__item" href="./aboutMe.html"
-                    >О мастере</a
-                  >
-                </li>
-                <li>
-                  <a class="hamburger-menu__item" href="./prices.html"
-                    >Прайс лист</a
-                  >
-                </li>
-                <li>
-                  <a class="hamburger-menu__item" href="./questions.html"
-                    >Вопросы</a
-                  >
-                </li>
-                <li>
-                  <a class="hamburger-menu__item" href="./contacts.html"
-                    >Контакты</a
-                  >
-                </li>
-              </div>
+              <nav class="header__navigation">
+                <ul class="hamburger-menu__container">
+                  <li>
+                    <a
+                      class="hamburger-menu__item hamburger-menu__item_padding"
+                      href="./index.html"
+                      >Главная</a
+                    >
+                  </li>
+                  <li>
+                    <a class="hamburger-menu__item" href="./aboutMe.html"
+                      >О мастере</a
+                    >
+                  </li>
+                  <li>
+                    <a class="hamburger-menu__item" href="./prices.html"
+                      >Прайс лист</a
+                    >
+                  </li>
+                  <li>
+                    <a class="hamburger-menu__item" href="./questions.html"
+                      >Вопросы</a
+                    >
+                  </li>
+                  <li>
+                    <a class="hamburger-menu__item" href="./contacts.html"
+                      >Контакты</a
+                    >
+                  </li>
+                </ul>
+              </nav>
 
               <div class="hamburger-menu__containerBoottom">
                 <div class="hamburger-menu__containerBoottomTwo">
@@ -113,33 +158,35 @@
                   100
                 </p>
               </div>
-            </ul>
+            </div>
           </div>
         </header>
 
         <main class="content">
-          <section class="master">
-            <div class="master__wrapper">
-              <h1 class="master__title">Твой мастер Юлия</h1>
-              <p class="master__text">
-                Меня зовут Юлия, я профессиональный мастер в мире красоты
-                и ухода за ресницами и бровями.
-              </p>
-              <p class="master__text master__text_margin">
-                У меня богатый опыт в индустрии красоты, и я обладаю всеми
-                необходимыми сертификатами и навыками, чтобы превратить ваши
-                ресницы и брови в настоящие произведения искусства.
-              </p>
-            </div>
+          <article>
+            <section class="master">
+              <div class="master__wrapper">
+                <h1 class="master__title">Твой мастер Юлия</h1>
+                <p class="master__text">
+                  Меня зовут Юлия, я профессиональный мастер в мире красоты
+                  и ухода за ресницами и бровями.
+                </p>
+                <p class="master__text master__text_margin">
+                  У меня богатый опыт в индустрии красоты, и я обладаю всеми
+                  необходимыми сертификатами и навыками, чтобы превратить ваши
+                  ресницы и брови в настоящие произведения искусства.
+                </p>
+              </div>
 
-            <div class="master__wrapper master__wrapper_container">
-              <img
-                class="master__foto"
-                src="./images/fotoMastera.png"
-                alt="моя фотография"
-              />
-            </div>
-          </section>
+              <div class="master__wrapper master__wrapper_container">
+                <img
+                  class="master__foto"
+                  src="./images/fotoMastera.png"
+                  alt="моя фотография"
+                />
+              </div>
+            </section>
+          </article>
 
           <section class="my-views">
             <div class="my-views__wrapper">
@@ -215,65 +262,71 @@
             />
           </section>
 
-        <section class="my-works">
-          <div class="my-works__container">
-            <h3 class="my-works__title">Мои работы</h3>
+          <section class="my-works">
+            <div class="my-works__container">
+              <h3 class="my-works__title">Мои работы</h3>
 
-            <div class="slider-container">
-              <div class="slider-container__slider">
-                <img
-                  class="slider-container__foto"
-                  src="./images/lashes/lashes.jpeg"
-                  alt="фото моей работы"
-                />
-                <img
-                  class="slider-container__foto"
-                  src="./images/lashes/lashes2.jpeg"
-                  alt="фото моей работы"
-                />
-                <img
-                  class="slider-container__foto"
-                  src="./images/lashes/lashes3.jpeg"
-                  alt="фото моей работы"
-                />
+              <div class="slider-container">
+                <div class="slider-container__slider">
+                  <img
+                    class="slider-container__foto"
+                    src="./images/lashes/lashes.jpeg"
+                    alt="фото моей работы"
+                  />
+                  <img
+                    class="slider-container__foto"
+                    src="./images/lashes/lashes2.jpeg"
+                    alt="фото моей работы"
+                  />
+                  <img
+                    class="slider-container__foto"
+                    src="./images/lashes/lashes3.jpeg"
+                    alt="фото моей работы"
+                  />
 
-                <img
-                  class="slider-container__foto"
-                  src="./images/lashes/lashes4.jpeg"
-                  alt="фото моей работы"
-                />
-                <img
-                  class="slider-container__foto"
-                  src="./images/lashes/lashes5.jpeg"
-                  alt="фото моей работы"
-                />
-                <img
-                  class="slider-container__foto"
-                  src="./images/lashes/lashes6.jpeg"
-                  alt="фото моей работы"
-                />
+                  <img
+                    class="slider-container__foto"
+                    src="./images/lashes/lashes4.jpeg"
+                    alt="фото моей работы"
+                  />
+                  <img
+                    class="slider-container__foto"
+                    src="./images/lashes/lashes5.jpeg"
+                    alt="фото моей работы"
+                  />
+                  <img
+                    class="slider-container__foto"
+                    src="./images/lashes/lashes6.jpeg"
+                    alt="фото моей работы"
+                  />
+                </div>
+              </div>
+
+              <div class="slider-container__btnWrapper">
+                <div class="slider-container__button-block">
+                  <button class="slider-container__button-left"></button>
+                </div>
+
+                <div class="slider-container__button-block">
+                  <button class="slider-container__button-right"></button>
+                </div>
               </div>
             </div>
-
-            <div class="slider-container__btnWrapper">
-              <div class="slider-container__button-block">
-                <button class="slider-container__button-left"></button>
-              </div>
-
-              <div class="slider-container__button-block">
-                <button class="slider-container__button-right"></button>
-              </div>
-            </div>
-          </div>
           </section>
 
-          <section class="registration registration_margin registration_no-margin">
-            <div class="registration__wrap-form registration__wrap-form_reverse">
-              <form class="registration__formRegister registration__formRegister_margin">
+          <section
+            class="registration registration_margin registration_no-margin"
+          >
+            <div
+              class="registration__wrap-form registration__wrap-form_reverse"
+            >
+              <form
+                class="registration__formRegister registration__formRegister_margin"
+              >
                 <div class="registration__formRegisterContainer">
-                  <p class="registration__formRegisterTitle">
+                  <h6 class="registration__formRegisterTitle">
                     Записаться на процедуру
-                  </p>
+                  </h6>
 
                   <input
                     class="registration__formRegisterInputName"
@@ -286,8 +339,6 @@
                     placeholder="Номер телефона"
                   />
                   <input
-                    rows="4"
-                    cols="50"
                     class="registration__formRegisterInputComment"
                     type="text"
                     placeholder="Выберите процедуру"
@@ -303,23 +354,17 @@
 
               <div class="registration__maps">
                 <a
-                class="registration__link"
+                  class="registration__link"
                   href="https://yandex.ru/maps/10734/kolomna/?utm_medium=mapframe&utm_source=maps"
-                 
                   >Коломна</a
                 ><a
-                class="registration__link-two"
+                  class="registration__link-two"
                   href="https://yandex.ru/maps/10734/kolomna/house/ulitsa_devichye_pole_12k3/Z0EYcQNkTEQPQFtvfXx0dHlhYw==/inside/?from=mapframe&l=sat&ll=38.744518%2C55.055527&tab=inside&utm_medium=mapframe&utm_source=maps&z=16"
-                 
                   >Организации внутри: Московская область, Коломна, улица
                   Девичье Поле, 12к3 — Яндекс Карты</a
                 ><iframe
-                class="registration__iframe"
+                  class="registration__iframe"
                   src="https://yandex.ru/map-widget/v1/?from=mapframe&l=sat&ll=38.744518%2C55.055527&mode=whatshere&tab=inside&whatshere%5Bpoint%5D=38.744518%2C55.055527&whatshere%5Bzoom%5D=17&z=16"
-                 
-                  frameborder="1"
-                  allowfullscreen="true"
-                  
                 ></iframe>
               </div>
             </div>
@@ -355,11 +400,21 @@
 
             <div class="footer__main">
               <ul class="footer__lists">
-                <p class="footer__listsTitle">Главная</p>
-                <li class="footer__listsItem">О мастере</li>
-                <li class="footer__listsItem">Прайс лист</li>
-                <li class="footer__listsItem">Вопросы</li>
-                <li class="footer__listsItem">Контакты</li>
+                <li class="footer__listsTitle">
+                  <a class="footer__link" href="./index.html">Главная</a>
+                </li>
+                <li class="footer__listsItem">
+                  <a class="footer__link" href="./aboutMe.html">О мастере</a>
+                </li>
+                <li class="footer__listsItem">
+                  <a class="footer__link" href="./prices.html">Прайс лист</a>
+                </li>
+                <li class="footer__listsItem">
+                  <a class="footer__link" href="./questions.html">Вопросы</a>
+                </li>
+                <li class="footer__listsItem">
+                  <a class="footer__link" href="./contacts.html">Контакты</a>
+                </li>
               </ul>
             </div>
           </div>
@@ -368,6 +423,6 @@
         </footer>
       </div>
     </div>
+    <script src="./scripts.js"></script>
   </body>
-  <script src="./scripts.js"></script>
 </html>

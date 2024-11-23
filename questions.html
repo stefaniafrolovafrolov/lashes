@@ -1,7 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
-    <link rel="shortcut icon" href="/images/favicon.png" type="image/png">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="
+      Ламинирование ресниц и бровей , стрейчинг, ботокс и окрашивание ресниц в
+      Коломне в студии красоты ЛамиКо по выгодной цене!
+      Акции при первом посещении и не только! 
+      Записаться на процедуру можно на сайте или позвонив по телефону"
+    />
+    <meta
+      name="keywords"
+      content="
+      Что такое ламинирование ресниц ?, 
+      Преимущества ламинирования ресниц ?, 
+      Как проходит процедура ламинирования ресниц ?,
+      Как часто можно делать ламинирование ресниц?,
+      Сколько стоит ламинирование ресниц?"
+    />
+    <meta
+      property="
+    og:title"
+      content="
+    Вопросы и ответы по ламинированию ресниц в студии красоты Ламико"
+    />
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/png" />
     <link href="./main.css" rel="stylesheet" />
     <link href="./about.css" rel="stylesheet" />
     <link href="./questions.css" rel="stylesheet" />
@@ -9,36 +34,44 @@
     <link href="./fonts/Vibes/stylesheet.css" rel="stylesheet" />
     <link href="./fonts/Caption/stylesheet.css" rel="stylesheet" />
     <link href="./normalize.css" type="text/css" rel="stylesheet" />
-
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Уход за ресницами в студии красоты ЛамиКо в Коломне.</title>
   </head>
   <body>
     <div class="page">
       <div class="page__content">
         <header class="header">
-          <div class="header__logo">
-            <p class="header__lamiKo">ЛамиКо</p>
-            <div class="header__border"></div>
-            <p class="header__text">Ламинирование ресниц в Коломне</p>
-          </div>
+          <a class="header__link" href="./index.html">
+            <div class="header__logo">
+              <p class="header__lamiKo">ЛамиКо</p>
+              <div class="header__border"></div>
+              <p class="header__text">Ламинирование ресниц в Коломне</p>
+            </div>
+          </a>
 
-          <ul class="header__lists">
-            <li class="header__item">Главная</li>
-            <li class="header__item">О мастере</li>
-            <li class="header__item">Прайс лист</li>
-            <li class="header__item">Вопросы</li>
-            <li class="header__item">Контакты</li>
-          </ul>
+          <nav class="header__navigation">
+            <ul class="header__lists">
+              <li class="header__item">
+                <a class="header__link" href="./index.html">Главная</a>
+              </li>
+              <li class="header__item">
+                <a class="header__link" href="./aboutMe.html">О мастере</a>
+              </li>
+              <li class="header__item">
+                <a class="header__link" href="./prices.html">Прайс лист</a>
+              </li>
+              <li class="header__item">
+                <a class="header__link" href="./questions.html">Вопросы</a>
+              </li>
+              <li class="header__item">
+                <a class="header__link" href="./contacts.html">Контакты</a>
+              </li>
+            </ul>
+          </nav>
 
-          <button class="header__button">
-            <p class="header__textTelephone">Позвонить</p>
-          </button>
+          <a href="tel:+79168829426" class="header__button">
+            <span class="header__textTelephone">Позвонить</span>
+          </a>
         </header>
-
-
-
 
         <header class="header-mobile">
           <div class="header__logo">
@@ -48,13 +81,17 @@
           </div>
 
           <div class="hamburger-menu">
-            <input class="hamburger-menu__toggle" id="hamburger-menu__toggle" type="checkbox" />
+            <input
+              class="hamburger-menu__toggle"
+              id="hamburger-menu__toggle"
+              type="checkbox"
+            />
             <div class="hamburger-menu__wrapper"></div>
             <label class="hamburger-menu__button" for="hamburger-menu__toggle">
               <span></span>
             </label>
 
-            <ul class="hamburger-menu__box">
+            <div class="hamburger-menu__box">
               <div class="hamburger-menu__logoAbsolut">
                 <div class="header__logo">
                   <p class="header__lamiKo">ЛамиКо</p>
@@ -62,36 +99,37 @@
                   <p class="header__text">Ламинирование ресниц в Коломне</p>
                 </div>
               </div>
-
-              <div class="hamburger-menu__container">
-                <li>
-                  <a
-                    class="hamburger-menu__item hamburger-menu__item_padding"
-                    href="./index.html"
-                    >Главная</a
-                  >
-                </li>
-                <li>
-                  <a class="hamburger-menu__item" href="./aboutMe.html"
-                    >О мастере</a
-                  >
-                </li>
-                <li>
-                  <a class="hamburger-menu__item" href="./prices.html"
-                    >Прайс лист</a
-                  >
-                </li>
-                <li>
-                  <a class="hamburger-menu__item" href="./questions.html"
-                    >Вопросы</a
-                  >
-                </li>
-                <li>
-                  <a class="hamburger-menu__item" href="./contacts.html"
-                    >Контакты</a
-                  >
-                </li>
-              </div>
+              <nav class="header__navigation">
+                <ul class="hamburger-menu__container">
+                  <li>
+                    <a
+                      class="hamburger-menu__item hamburger-menu__item_padding"
+                      href="./index.html"
+                      >Главная</a
+                    >
+                  </li>
+                  <li>
+                    <a class="hamburger-menu__item" href="./aboutMe.html"
+                      >О мастере</a
+                    >
+                  </li>
+                  <li>
+                    <a class="hamburger-menu__item" href="./prices.html"
+                      >Прайс лист</a
+                    >
+                  </li>
+                  <li>
+                    <a class="hamburger-menu__item" href="./questions.html"
+                      >Вопросы</a
+                    >
+                  </li>
+                  <li>
+                    <a class="hamburger-menu__item" href="./contacts.html"
+                      >Контакты</a
+                    >
+                  </li>
+                </ul>
+              </nav>
 
               <div class="hamburger-menu__containerBoottom">
                 <div class="hamburger-menu__containerBoottomTwo">
@@ -118,167 +156,195 @@
                   100
                 </p>
               </div>
-            </ul>
+            </div>
           </div>
         </header>
-
-
-
-
-
-
 
         <section class="banner-questions">
           <h1 class="banner-questions__title">Вопросы/Ответы</h1>
         </section>
 
         <main class="content">
-          <section class="answers">
-            <div class="answers__container">
-              <div class="answers__wpapper">
-                <h2 class="answers__title">Что такое ламинирование ресниц ?</h2>
-                <p class="answers__text">
-                  Ламинирование ресниц — это новая процедура, которая уже успела
-                  завоевать огромную популярность во всех европейских странах.
-                  Кератин представляет собой фибриллярный белок, который входит
-                  в состав волоса и обладает большой механической прочностью,
-                  благодаря чему ресницы утолщаются, делаются гуще и объемнее,
-                  отличаются насыщенным цветом и здоровым блеском. После
-                  ламинирования ресницы не выглядят нарочито в повседневной
-                  жизни, наоборот, отличаются естественностью и позволяют
-                  отказаться от повседневного макияжа.
-                </p>
-              </div>
-
-              <div class="answers__wpapper">
-                <h3 class="answers__title">
-                  Преимущества ламинирования ресниц ?
-                </h3>
-                <p class="answers__text">
-                  <ul class="answers__lists">
-                    <li class="answers__item">
-                      He используются агрессивные химические вещества
-                    </li>
-                    <li class="answers__item">Безопасность процедуры</li>
-                    <li class="answers__item">
-                      Можно умываться, купаться в пресной и соленой воде
-                    </li>
-                    <li class="answers__item">
-                      Можно использовать крем для кожи вокруг глаз
-                    </li>
-                    <li class="answers__item">
-                      Можно спать в любой удобной позе, в том числе на животе
-                    </li>
-                  </ul>
-                </p>
-              </div>
-
-              <div class="answers__wpapper">
-                <h4 class="answers__title">
-                  Как проходит процедура ламинирования ресниц ?
-                </h4>
-                <p class="answers__text">
-                  <p class="answers__text answers__text_margin">
-                    Ламинирование выгодно отличается от классического
-                    наращивания ресниц. Преображаются ваши собственные реснички.
-                    Это означает, что ничего не отвалится, не отклеится, не
-                    останется утром на подушке.
+          <article>
+            <section class="answers">
+              <div class="answers__container">
+                <div class="answers__wpapper">
+                  <h2 class="answers__title">
+                    Что такое ламинирование ресниц ?
+                  </h2>
+                  <p class="answers__text">
+                    Ламинирование ресниц – это инновационная процедура в сфере
+                    косметологии, завоевавшая огромную популярность благодаря
+                    своей эффективности и долговечности результата. В отличие от
+                    наращивания, которое предполагает прикрепление искусственных
+                    ресниц к натуральным, ламинирование работает с вашими
+                    собственными ресницами, усиливая их природную красоту и
+                    здоровье. Процедура представляет собой комплексное
+                    воздействие на ресницы, включающее очищение, подкручивание,
+                    окрашивание и укрепление с помощью специальных составов,
+                    главным компонентом которых является кератин – тот самый
+                    строительный белок, из которого состоят наши волосы.
                   </p>
+                </div>
 
-                  <p class="answers__text answers__text_margin">
-                    Эта косметологическая процедура, которая, как правило,
-                    занимает от одного до полутора часов и осуществляется в
-                    несколько последовательных этапов.
+                <div class="answers__wpapper">
+                  <h3 class="answers__title">
+                    Преимущества ламинирования ресниц ?
+                  </h3>
+                  <div class="answers__text">
+                    <ul class="answers__lists">
+                      <li class="answers__item">
+                        He используются агрессивные химические вещества
+                      </li>
+                      <li class="answers__item">Безопасность процедуры</li>
+                      <li class="answers__item">
+                        Можно умываться, купаться в пресной и соленой воде
+                      </li>
+                      <li class="answers__item">
+                        Можно использовать крем для кожи вокруг глаз
+                      </li>
+                      <li class="answers__item">
+                        Можно спать в любой удобной позе, в том числе на животе
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="answers__wpapper">
+                  <h4 class="answers__title">
+                    Как проходит процедура ламинирования ресниц ?
+                  </h4>
+                  <div class="answers__text">
+                    <p class="answers__text answers__text_margin">
+                      Ламинирование имеет явные преимущества по сравнению с
+                      традиционным наращиванием ресниц. В процессе
+                      трансформируются именно ваши естественные ресницы. Это
+                      гарантирует, что ничего не будет выпадать за ночь.
+                    </p>
+
+                    <p class="answers__text answers__text_margin">
+                      Эта процедура обычно занимает один - полтора часа.
+                    </p>
+
+                    <p class="answers__text answers__text_margin">
+                      Детально рассмотрим этапы процедуры. Сначала мастер
+                      тщательно очищает ресницы от макияжа и любых загрязнений,
+                      используя специальные средства для демакияжа, не
+                      содержащие агрессивных компонентов, которые могли бы
+                      повредить нежную кожу век. Затем, для придания желаемой
+                      формы, ресницы аккуратно укладываются на силиконовые
+                      валики различного диаметра – выбор диаметра валика зависит
+                      от желаемой степени изгиба и длины ресниц. В зависимости
+                      от индивидуальных особенностей и пожеланий клиента, мастер
+                      подбирает валики, обеспечивающие естественный или более
+                      выразительный изгиб. После фиксации ресниц на валиках
+                      начинается нанесение специальных составов. Первый этап –
+                      это нанесение препарата для глубокого очищения и
+                      подготовки ресниц к дальнейшей обработке. Он помогает
+                      удалить остатки косметики и загрязнений, которые могут
+                      препятствовать проникновению последующих составов в
+                      структуру волоса. Затем наносится состав, содержащий
+                      кератин, который проникает в структуру ресниц, заполняя
+                      повреждения и микротрещины, восстанавливая их целостность.
+                      Кератин обеспечивает укрепление, придает ресницам
+                      эластичность, объем и блеск. Следующий этап – окрашивание.
+                      Мастер подбирает оттенок краски, максимально приближенный
+                      к естественному цвету ресниц клиента, или же предлагает
+                      более насыщенный, яркий цвет по желанию. Красящий состав
+                      включает в себя компоненты, укрепляющие структуру ресниц и
+                      препятствующие выцветанию. Важно отметить, что
+                      качественные красители не вызывают раздражения слизистой
+                      оболочки глаз.
+                    </p>
+
+                    <p class="answers__text answers__text_margin">
+                      После окрашивания на ресницы наносится фиксатор, который
+                      закрепляет полученный результат и обеспечивает
+                      долговременность эффекта. В состав некоторых фиксаторов
+                      входят компоненты, схожие по действию с ботоксом
+                      (ботулотоксин типа А), которые способствуют питанию
+                      волосяных фолликулов, укреплению ресниц и замедлению их
+                      естественного выпадения. Эти компоненты, как правило,
+                      используются в средствах, называемых Botox Lashes,
+                      обеспечивающих более длительный эффект ламинирования.
+                      Действие ботокса в данном случае локально, он не
+                      расслабляет мышцы, а способствует укреплению ресниц
+                      изнутри, стимулируя рост и продлевая их жизненный цикл.
+                      Заключительный этап – нанесение уходового средства,
+                      содержащего увлажняющие и питательные компоненты, которые
+                      дополнительно укрепляют и защищают ресницы от негативного
+                      воздействия окружающей среды. Это средство помогает
+                      сохранить блеск и эластичность ресниц на протяжении всего
+                      периода действия процедуры. В целом, процедура
+                      ламинирования занимает от 1 до 1,5 часов. Сразу после
+                      процедуры ресницы выглядят ухоженными, объемными,
+                      подкрученными и окрашенными.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="answers__wpapper">
+                  <h5 class="answers__title">Сколько держится?</h5>
+                  <p class="answers__text">
+                    Эффект ламинирования сохраняется в среднем от 6 до 8 недель,
+                    а при использовании составов с ботулотоксином – до 2 месяцев
+                    и более. Длительность эффекта зависит от индивидуальных
+                    особенностей организма, ухода за ресницами и внешних
+                    факторов (погодные условия, использование косметики). После
+                    процедуры рекомендуется избегать контакта ресниц с водой в
+                    течение первых 24 часов. Также важно использовать
+                    специальные средства для ухода за ресницами, которые помогут
+                    сохранить результат и поддерживать их здоровье. Следует
+                    избегать агрессивных средств для снятия макияжа и
+                    механических повреждений ресниц. Регулярное использование
+                    касторового или репейного масла способствует укреплению
+                    ресниц и продлевает эффект ламинирования.
                   </p>
+                </div>
 
-                  <p class="answers__text answers__text_margin">
-                    Мастер проводит демакияж, при помощи гидрогелевых подушечек
-                    разделяет верхние и нижние ресницы. Ha реснички наносится
-                    питательный состав и специальный пигмент, который делает их
-                    более яркими. После этого каждую ресничку покрывают
-                    составом, который содержит кератин — вещество, которое
-                    является главным «строительным элементом» волос человека.
-                    Благодаря этому реснички приобретают невероятную длину,
-                    объём и необходимый изгиб.
+                <div class="answers__wpapper">
+                  <h5 class="answers__title">
+                    Как часто можно делать ламинирование ресниц?
+                  </h5>
+                  <div class="answers__text">
+                    <p class="answers__text answers__text_margin">
+                      Ламинирование ресниц – это прекрасная альтернатива
+                      наращиванию, позволяющая улучшить внешний вид ресниц, не
+                      повреждая их структуру. Это процедура абсолютно
+                      безболезненна и подходит практически всем, за исключением
+                      людей с индивидуальной непереносимостью компонентов
+                      используемых составов или заболеваниями век. Перед
+                      процедурой необходимо провести консультацию с мастером,
+                      чтобы убедиться в отсутствии противопоказаний. Правильный
+                      уход после ламинирования гарантирует максимально
+                      длительный и красивый результат. Ламинирование – это
+                      инвестиция в красоту и здоровье ваших ресниц.
+                    </p>
+
+                    <p class="answers__text answers__text_margin">
+                      Рекомендуемый промежуток между ламинированием ресниц
+                      составляет около одного месяца. В дальнейшем процедуру
+                      можно повторять раз в два месяца.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="answers__wpapper">
+                  <h5 class="answers__title">
+                    Сколько стоит ламинирование ресниц?
+                  </h5>
+                  <p class="answers__text">
+                    Стандартное ламинирование ресниц стоит около 1200 рублей.
+                    Ламинирование и дальнейшее восстановление ресниц с Botox
+                    Lashes — 1700 рублей, а с окрашиванием — 700 рублей.
+                    Несмотря на доступные цены, я гарантирую высокое качество и
+                    профессионализм в выполнении услуг.
                   </p>
-
-                  <p class="answers__text answers__text_margin">
-                    Ha уже распределённые ресницы последовательно наносятся
-                    несколько специальных составов, один из которых содержит тот
-                    самый кератин, другой красящее вещество необходимого
-                    оттенка, последним наносится закрепляющее фиксирующее
-                    вещество в составе которого содержится ботулинический
-                    токсин, который и обуславливает долговременность полученного
-                    в итоге эффекта. Кератин делает каждую ресничку более
-                    сильной, плотной и длинной. Результаты процедуры сохраняются
-                    около 2 месяцев. Ресницы выглядят естественно и красиво на
-                    протяжении всего этого времени. Процедура совершенно
-                    безболезненна. Глаза во время ламинирования ресниц все время
-                    должны быть закрыты.
-                  </p>
-                </p>
+                </div>
               </div>
-
-              <div class="answers__wpapper">
-                <h5 class="answers__title">Сколько держится?</h5>
-                <p class="answers__text">
-                  Эффект после проведения ламинирования ресниц, как правило,
-                  долговременный и сохраняет свой первоначальный вид до начала
-                  физиологической их смены. По истечении двух недель co сменой
-                  ресниц результат ламинирования нисходит. При проведении
-                  ламинирования ресниц Botox Lashes волоски укрепляются не
-                  только снаружи, но и изнутри. Ботулинический токсин питая
-                  волосяные фолликулы продлевает их жизненный цикл, в связи c
-                  чем смена ресниц происходит медленнее, a значит и эффект после
-                  проведения процедуры более долговременный.
-                </p>
-              </div>
-
-              <div class="answers__wpapper">
-                <h5 class="answers__title">
-                  Как часто можно делать ламинирование ресниц?
-                </h5>
-                <p class="answers__text">
-                <p class="answers__text answers__text_margin">
-                  Существует мнение o том, что ламинирование ресниц процедура не
-                  безопасная, и проводить её стоит не чаще одного раза в год.
-                  Что бы развеять данный миф, необходимо понимать, что кератин —
-                  это физиологичный для волоса белок, благодаря которому ресницы
-                  утолщаются, оздоравливаются. Кроме того, c каждой последующей
-                  процедурой ламинирования ресниц Botox Lashes кератин имеет
-                  свойство кумулировать в толще волоса, в связи c чем c каждой
-                  последующей процедурой эффект от ламинирования становится
-                  более заметным и долговременным.
-                </p>
-
-                <p class="answers__text answers__text_margin">
-                  Рекомендованный промежуток времени между первым и вторым
-                  ламинированием ресниц составляет порядка одного месяца, далее
-                  повторять процедуру можно раз в два месяца.
-                </p>
-            </p>
-              </div>
-            
-
-            <div class="answers__wpapper">
-              <h5 class="answers__title">
-                Сколько стоит ламинирование ресниц?
-              </h5>
-              <p class="answers__text">
-                Стандартное ламинирование ресниц обойдётся вам порядка 1200
-                рублей. Восстановление ресниц Botox Lashes c ламинированием —
-                1700 рублей. Восстановление ресниц Botox Lashes c окрашиванием
-                всего на всего 700 рублей. He смотря на низкие цены, я,
-                безусловно порадую вас качеством и техникой выполнения
-                предоставляемых услуг.
-              </p>
-            </div>
-        </div>
-          </section>
+            </section>
+          </article>
         </main>
-
-       
-
 
         <!--  <section class="registration registration_margin">
                 <div class="registration__wrap-form">
@@ -346,107 +412,107 @@
                 </div>
               </section> -->
 
-              <section class="registration registration_margin registration_no-margin">
-                <div class="registration__wrap-form registration__wrap-form_reverse">
-                  <form class="registration__formRegister registration__formRegister_margin">
-                    <div class="registration__formRegisterContainer">
-                      <p class="registration__formRegisterTitle">
-                        Записаться на процедуру
-                      </p>
-    
-                      <input
-                        class="registration__formRegisterInputName"
-                        type="text"
-                        placeholder="Имя"
-                      />
-                      <input
-                        class="registration__formRegisterInputTelephone"
-                        type="text"
-                        placeholder="Номер телефона"
-                      />
-                      <input
-                        rows="4"
-                        cols="50"
-                        class="registration__formRegisterInputComment"
-                        type="text"
-                        placeholder="Выберите процедуру"
-                      />
-                      <button
-                        class="registration__formRegisterButton"
-                        type="submit"
-                      >
-                        Оставить заявку
-                      </button>
-                    </div>
-                  </form>
-    
-                  <div class="registration__maps">
-                    <a
-                    class="registration__link"
-                      href="https://yandex.ru/maps/10734/kolomna/?utm_medium=mapframe&utm_source=maps"
-                     
-                      >Коломна</a
-                    ><a
-                    class="registration__link-two"
-                      href="https://yandex.ru/maps/10734/kolomna/house/ulitsa_devichye_pole_12k3/Z0EYcQNkTEQPQFtvfXx0dHlhYw==/inside/?from=mapframe&l=sat&ll=38.744518%2C55.055527&tab=inside&utm_medium=mapframe&utm_source=maps&z=16"
-                     
-                      >Организации внутри: Московская область, Коломна, улица
-                      Девичье Поле, 12к3 — Яндекс Карты</a
-                    ><iframe
-                    class="registration__iframe"
-                      src="https://yandex.ru/map-widget/v1/?from=mapframe&l=sat&ll=38.744518%2C55.055527&mode=whatshere&tab=inside&whatshere%5Bpoint%5D=38.744518%2C55.055527&whatshere%5Bzoom%5D=17&z=16"
-                     
-                      frameborder="1"
-                      allowfullscreen="true"
-                      
-                    ></iframe>
-                  </div>
-                </div>
-              </section>
+        <section
+          class="registration registration_margin registration_no-margin"
+        >
+          <div class="registration__wrap-form registration__wrap-form_reverse">
+            <form
+              class="registration__formRegister registration__formRegister_margin"
+            >
+              <div class="registration__formRegisterContainer">
+                <h6 class="registration__formRegisterTitle">
+                  Записаться на процедуру
+                </h6>
 
-              <footer class="footer">
-                <div class="footer__wrapper">
-                  <div class="footer__lamiKo">
-                    <p class="footer__title">ЛамиКо</p>
-                    <p class="footer__text">
-                      РФ, Московская обл., Коломна, ул Девичье поле дом 12/3 , кв 100
-                    </p>
-      
-                    <div>
-                      <img
-                        class="footer__icon footer__icon_margin"
-                        src="./images/telegram_2111646.png"
-                        alt="иконка WhatsApp"
-                      />
-                      <img
-                        class="footer__icon footer__icon_margin"
-                        src="./images/vkontakte_44945172.png"
-                        alt="иконка WhatsApp"
-                      />
-                      <img
-                        class="footer__icon"
-                        src="./images/whatsapp_4494494.png"
-                        alt="иконка WhatsApp"
-                      />
-                    </div>
-                  </div>
-      
-                  <div class="footer__main">
-                    <ul class="footer__lists">
-                      <p class="footer__listsTitle">Главная</p>
-                      <li class="footer__listsItem">О мастере</li>
-                      <li class="footer__listsItem">Прайс лист</li>
-                      <li class="footer__listsItem">Вопросы</li>
-                      <li class="footer__listsItem">Контакты</li>
-                    </ul>
-                  </div>
-                </div>
-      
-                <p class="footer__author">&copy;2024, ЛамиКо. Все права защищены</p>
-              </footer>
+                <input
+                  class="registration__formRegisterInputName"
+                  type="text"
+                  placeholder="Имя"
+                />
+                <input
+                  class="registration__formRegisterInputTelephone"
+                  type="text"
+                  placeholder="Номер телефона"
+                />
+                <input
+                  class="registration__formRegisterInputComment"
+                  type="text"
+                  placeholder="Выберите процедуру"
+                />
+                <button class="registration__formRegisterButton" type="submit">
+                  Оставить заявку
+                </button>
+              </div>
+            </form>
 
+            <div class="registration__maps">
+              <a
+                class="registration__link"
+                href="https://yandex.ru/maps/10734/kolomna/?utm_medium=mapframe&utm_source=maps"
+                >Коломна</a
+              ><a
+                class="registration__link-two"
+                href="https://yandex.ru/maps/10734/kolomna/house/ulitsa_devichye_pole_12k3/Z0EYcQNkTEQPQFtvfXx0dHlhYw==/inside/?from=mapframe&l=sat&ll=38.744518%2C55.055527&tab=inside&utm_medium=mapframe&utm_source=maps&z=16"
+                >Организации внутри: Московская область, Коломна, улица Девичье
+                Поле, 12к3 — Яндекс Карты</a
+              ><iframe
+                class="registration__iframe"
+                src="https://yandex.ru/map-widget/v1/?from=mapframe&l=sat&ll=38.744518%2C55.055527&mode=whatshere&tab=inside&whatshere%5Bpoint%5D=38.744518%2C55.055527&whatshere%5Bzoom%5D=17&z=16"
+              ></iframe>
+            </div>
+          </div>
+        </section>
 
-           
+        <footer class="footer">
+          <div class="footer__wrapper">
+            <div class="footer__lamiKo">
+              <p class="footer__title">ЛамиКо</p>
+              <p class="footer__text">
+                РФ, Московская обл., Коломна, ул Девичье поле дом 12/3 , кв 100
+              </p>
+
+              <div>
+                <img
+                  class="footer__icon footer__icon_margin"
+                  src="./images/telegram_2111646.png"
+                  alt="иконка WhatsApp"
+                />
+                <img
+                  class="footer__icon footer__icon_margin"
+                  src="./images/vkontakte_44945172.png"
+                  alt="иконка WhatsApp"
+                />
+                <img
+                  class="footer__icon"
+                  src="./images/whatsapp_4494494.png"
+                  alt="иконка WhatsApp"
+                />
+              </div>
+            </div>
+
+            <div class="footer__main">
+              <ul class="footer__lists">
+                <li class="footer__listsTitle">
+                  <a class="footer__link" href="./index.html">Главная</a>
+                </li>
+                <li class="footer__listsItem">
+                  <a class="footer__link" href="./aboutMe.html">О мастере</a>
+                </li>
+                <li class="footer__listsItem">
+                  <a class="footer__link" href="./prices.html">Прайс лист</a>
+                </li>
+                <li class="footer__listsItem">
+                  <a class="footer__link" href="./questions.html">Вопросы</a>
+                </li>
+                <li class="footer__listsItem">
+                  <a class="footer__link" href="./contacts.html">Контакты</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <p class="footer__author">&copy;2024, ЛамиКо. Все права защищены</p>
+        </footer>
       </div>
     </div>
   </body>

@@ -37,6 +37,12 @@
   display: none;
 }
 
+.hamburger-menu__container {
+  list-style: none;
+  padding: 0;
+  /* outline: 5px red solid;*/
+}
+
 .header__logo {
   /* outline: 2px green solid;*/
   height: 40px;
@@ -95,14 +101,25 @@
   text-align: left;
 }
 
+.header__link {
+  text-decoration: none;
+  color: #000;
+}
+
 .header__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 169px;
   height: 40px;
   /*padding: 12px 16px 12px 16px;*/
+  text-align: center;
   border-radius: 25px;
-  opacity: 0px;
+  /*opacity: 0;*/
+  background: transparent;
   background: #000000;
   border: none;
+  text-decoration: none;
 }
 
 .header__textTelephone {
@@ -156,11 +173,20 @@
 }
 
 .creeping-line {
+  display: flex;
+  align-items: center;
   height: 85px;
-  justify-content: center;
+  background: #fff;
+  margin: auto;
+  width: 100%;
+  overflow: hidden;
 }
-
 .creeping-line__stock {
+  display: flex;
+  align-items: center;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  white-space: nowrap;
   font-family: PT Sans Caption;
   font-size: 36px;
   font-weight: 400;
@@ -171,12 +197,18 @@
   margin: 0;
   height: 85px;
 }
-
-.creeping-line__stock marquee {
-  display: flex;
-  align-items: center;
-  height: 85px;
-  background: #fff;
+.creeping-line__stock {
+  animation: run 9s linear infinite;
+}
+@keyframes run {
+  from {
+    transform: translateX(0%);
+  }
+  /* Magic is here. This is the width of the elem with text after rendering the page */
+  to {
+    /*transform: translateX(-1683.35px);*/
+    transform: translateX(-1183.35px);
+  }
 }
 
 .creeping-line__text {
@@ -210,13 +242,14 @@
   width: 1122px;
   height: 60px;
   border-radius: 20px;
-  opacity: 0px;
+ background: transparent;
   display: flex;
   justify-content: center;
   align-self: center;
   align-items: center;
   transition: 0.9s ease-in-out;
   border: none;
+  text-decoration: none;
 }
 
 .banners__buton:hover {
@@ -912,6 +945,11 @@
   justify-content: space-around;
   flex-shrink: 0;
 }
+
+.footer__link {
+  text-decoration: none;
+  color: #000;
+}
 .footer__wrapper {
   /* outline: blue 3px solid;*/
   width: 241px;
@@ -926,13 +964,14 @@
 
 .footer__container {
   width: 170px;
+ 
 }
 
 .footer__icon {
   width: 32px;
   height: 32px;
-  border-radius: 50%; /* Радиус скругления */
-  border: none; /* Убираем рамку вокруг кнопки */
+  border-radius: 50%; 
+  border: none;
 }
 
 .footer__icon_margin {
@@ -957,7 +996,7 @@
   text-align: left;
   color: #000;
   max-width: 246px;
-  padding-bottom: 60px;
+  padding-bottom: 45px;
 }
 
 .footer__main {
@@ -1011,7 +1050,7 @@
 
   .photo-gallery__container {
     max-width: 1000px;
-    padding: 0 auto;
+    /*padding: auto;*/
     grid-template-columns: repeat(2, 1fr);
     gap: 16px;
   }
@@ -1204,17 +1243,6 @@
     max-width: 1040px;
   }
 
-  /* .my-advantages__block {
-  height: 840px;
-    align-items: center;
-    outline: 25px red solid;
-    max-width: 1040px;
-  }*/
-
-  /*.my-advantages__title {
-    margin-bottom: 70px;
-    font-size: 84px;
-  }*/
 
   .my-advantages__overlay {
     width: 85%;
@@ -1577,8 +1605,7 @@
 
   .my-advantages__block {
     height: 840px;
-    width: 874px;
-    align-items: center;
+    max-width: 874px;
   }
 
   .my-advantages__title {
@@ -2077,9 +2104,7 @@
     height: 68%;
     z-index: 9999;
     margin: 0;
-
     padding: 60px 0 0px 0;
-    list-style: none;
     background: #ff0080;
     transition-duration: 0.25s;
     opacity: 0.97;
@@ -2205,7 +2230,7 @@
   .my-advantages__block {
     width: 520px;
     display: flex;
-    flex-direction: column;
+    /*flex-direction: column;*/
   }
 
   .my-advantages__title {
@@ -2790,8 +2815,8 @@
 
   .my-advantages__block {
     width: 320px;
-    display: flex;
-    flex-direction: column;
+    /*display: flex;
+    flex-direction: column;*/
   }
 
   .my-advantages__title {
@@ -3249,8 +3274,8 @@
 
   .my-advantages__block {
     width: 320px;
-    display: flex;
-    flex-direction: column;
+    /*display: flex;
+    flex-direction: column;*/
   }
 
   .my-advantages__title {
@@ -3372,7 +3397,6 @@
     width: 300px;
     height: 232px;
   }
-
 }
 
 @media screen and (max-width: 320px) {
