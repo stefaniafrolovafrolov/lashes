@@ -37,6 +37,10 @@
   display: none;
 }
 
+.header-mobile__link {
+  text-decoration: none;
+}
+
 .hamburger-menu__container {
   list-style: none;
   padding: 0;
@@ -242,7 +246,7 @@
   width: 1122px;
   height: 60px;
   border-radius: 20px;
- background: transparent;
+  background: transparent;
   display: flex;
   justify-content: center;
   align-self: center;
@@ -950,6 +954,10 @@
   text-decoration: none;
   color: #000;
 }
+
+.footer__social {
+  text-decoration: none;
+}
 .footer__wrapper {
   /* outline: blue 3px solid;*/
   width: 241px;
@@ -964,13 +972,12 @@
 
 .footer__container {
   width: 170px;
- 
 }
 
 .footer__icon {
   width: 32px;
   height: 32px;
-  border-radius: 50%; 
+  border-radius: 50%;
   border: none;
 }
 
@@ -1242,7 +1249,6 @@
     background-position: center;
     max-width: 1040px;
   }
-
 
   .my-advantages__overlay {
     width: 85%;
@@ -1516,6 +1522,20 @@
 
   .footer__author {
     padding-left: 40px;
+  }
+}
+
+@media screen and (max-width: 948px) {
+  .stock__image {
+    width: 240px;
+    height: 240px;
+  }
+}
+
+@media screen and (max-width: 904px) {
+  .stock__image {
+    width: 220px;
+    height: 220px;
   }
 }
 
@@ -1957,6 +1977,11 @@
     background: #ff0080;
   }
 
+  .hamburger-menu__containerBoottom {
+    /*  outline: 5px rgb(8, 155, 57) solid;*/
+    padding: 0 0 15px 30px;
+  }
+
   .header__logo {
     /*outline: 2px green solid;*/
     height: 40px;
@@ -1993,6 +2018,10 @@
     padding-right: 15px;
     background: #ff0080;
     /* outline: 5px red solid;*/
+  }
+
+  .hamburger-menu__social {
+    text-decoration: none;
   }
 
   .hamburger-menu__paragraph {
