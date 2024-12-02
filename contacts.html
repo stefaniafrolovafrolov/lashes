@@ -328,7 +328,126 @@
             <div
               class="registration__wrap-form registration__wrap-form_reverse"
             >
-              <form
+            <form
+            class="registration__formRegister registration__formRegister_margin"
+            name="contactForm"
+            id="contactForm"
+          >
+            <div class="registration__formRegisterContainer">
+              <h6 class="registration__formRegisterTitle">
+                Записаться на процедуру
+              </h6>
+
+              <label class="registration__label" for="Имя">
+                <span class="registration__label-text">Имя</span>
+                <input
+                  id="nameInput"
+                  name="text"
+                  minlength="2"
+                  maxlength="30"
+                  class="registration__input registration__formRegisterInputName"
+                  type="text"
+                  pattern="^[A-Za-zА-Яа-яЁё]{2,}$"
+                  placeholder="Введите минимум 2 символа"
+                  required
+                />
+                <span class="nameInput-errors errors"></span>
+              </label>
+
+              <label class="registration__label" for="Номер телефона">
+                <span class="registration__label-text">Номер телефона</span>
+                <input
+                  id="phoneInput"
+                  name="phone"
+                  class="registration__input registration__formRegisterInputTelephone"
+                  type="tel"
+                  minlength="11"
+                  maxlength="30"
+                  pattern="^(\+7\d{10}|8\d{10})$"
+                  placeholder="+7XXXXXXXXXX или 8XXXXXXXXXX"
+                  required
+                />
+
+                <span class="phoneInput-errors errors"></span>
+              </label>
+
+              <div class="registration__select-container">
+                <div class="__select" data-state="">
+                  <div class="__select__title" name="procedures">
+                    Выберете процедуру
+                  </div>
+                  <div class="__select__content">
+                    <input
+                      id="singleSelect0"
+                      class="__select__input"
+                      type="radio"
+                      name="singleSelect"
+                      value="Ламинирование ресниц"
+                    />
+                    <label
+                      for="singleSelect0"
+                      tabindex="0"
+                      class="__select__label"
+                      data-value="Ламинирование ресниц"
+                    ></label>
+
+                    <input
+                      id="singleSelect2"
+                      class="__select__input"
+                      type="radio"
+                      name="singleSelect"
+                      value="Ботокс ресниц"
+                    />
+                    <label
+                      for="singleSelect2"
+                      tabindex="0"
+                      class="__select__label"
+                      data-value="Ботокс ресниц"
+                    ></label>
+
+                    <input
+                      id="singleSelect3"
+                      class="__select__input"
+                      type="radio"
+                      name="singleSelect"
+                      value="Окрашивание ресниц"
+                    />
+                    <label
+                      for="singleSelect3"
+                      tabindex="0"
+                      class="__select__label"
+                      data-value="Окрашивание ресниц"
+                    ></label>
+                  </div>
+                  <!-- Сообщение об ошибке! -->
+                </div>
+                <span
+                  class="procedures__message-procedures"
+                  id="procedures-error"
+                >
+                  Пожалуйста, выберите процедуру!
+                </span>
+                <!-- Сообщение об ошибке на сервере! -->
+                <span
+                  class="procedures__message-error"
+                  id="server-error-message"
+                ></span>
+              </div>
+
+              <div class="success-message">
+                Сообщение успешно отправлено! Мастер свяжется с вами в
+                близжайшее время!
+              </div>
+              <button
+                id="submitButton"
+                class="registration__formRegisterButton registration__formRegisterButton_disabled"
+                type="submit"
+              >
+                Оставить заявку
+              </button>
+            </div>
+          </form>
+           <!--  <form
                 class="registration__formRegister registration__formRegister_margin"
               >
                 <div class="registration__formRegisterContainer">
@@ -358,7 +477,7 @@
                     Оставить заявку
                   </button>
                 </div>
-              </form>
+              </form>--> 
 
               <div class="registration__maps">
                 <a
@@ -380,6 +499,7 @@
         </main>
 
         <footer class="footer">
+          <div class="footer__overlay">
           <div class="footer__wrapper">
             <div class="footer__lamiKo">
               <p class="footer__title">ЛамиКо</p>
@@ -451,8 +571,11 @@
           </div>
   
           <p class="footer__author">&copy;2024, ЛамиКо. Все права защищены</p>
+        </div>
         </footer>
       </div>
     </div>
+    <script src="./scripts/telegramApiBot.js"></script>
+    <script type="module" src="./scripts/index.js"></script>
   </body>
 </html>
