@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow">
     <meta
       name="description"
       content="
@@ -19,12 +20,12 @@
       стрейчинг и окрашивание ресниц и бровей в г. Коломна"
     />
     <meta
-    property="
+      property="
     og:title"
-    content="
+      content="
     Прайс лист по ламинированию, стрейчингу, ботоксу и окрашиванию ресниц и бровей
     в г. Коломна в студии красоты Ламико"
-  />
+    />
     <link rel="shortcut icon" href="/images/favicon.png" type="image/png" />
     <link href="./prices.css" rel="stylesheet" />
     <link href="./main.css" rel="stylesheet" />
@@ -40,6 +41,19 @@
   <body>
     <div class="page">
       <div class="page__content">
+        <a
+          href="tel:+79168829426"
+          class="pulse-button"
+          role="button"
+          aria-label="Позвонить на номер +79168829426"
+        >
+          <span class="pulse-button__icon"></span>
+          <span class="pulse-button__text">Связаться</span>
+
+          <span class="pulse-button__rings"></span>
+          <span class="pulse-button__rings"></span>
+          <span class="pulse-button__rings"></span>
+        </a>
         <header class="header">
           <a class="header__link" href="./index.html">
             <div class="header__logo">
@@ -80,8 +94,8 @@
                 <div class="header__border"></div>
                 <p class="header__text">Ламинирование ресниц в Коломне</p>
               </div>
-              </a>
-  
+            </a>
+
             <div class="hamburger-menu">
               <input
                 class="hamburger-menu__toggle"
@@ -89,18 +103,27 @@
                 type="checkbox"
               />
               <div class="hamburger-menu__wrapper"></div>
-              <label class="hamburger-menu__button" for="hamburger-menu__toggle">
+              <label
+                class="hamburger-menu__button"
+                for="hamburger-menu__toggle"
+              >
                 <span></span>
               </label>
-  
+
               <div class="hamburger-menu__box">
-                <div class="hamburger-menu__logoAbsolut">
-                  <div class="header__logo">
-                    <p class="header__lamiKo">ЛамиКо</p>
-                    <div class="header__border"></div>
-                    <p class="header__text">Ламинирование ресниц в Коломне</p>
+
+
+                <a class="header__link" href="./index.html">
+                  <div class="hamburger-menu__logoAbsolut">
+                    <div class="header__logo">
+                      <p class="header__lamiKo">ЛамиКо</p>
+                      <div class="header__border"></div>
+                      <p class="header__text">Ламинирование ресниц в Коломне</p>
+                    </div>
                   </div>
-                </div>
+                  </a>
+
+
                 <nav class="header__navigation">
                   <ul class="hamburger-menu__container">
                     <li>
@@ -132,15 +155,14 @@
                     </li>
                   </ul>
                 </nav>
-  
+
                 <div class="hamburger-menu__containerBoottom">
                   <div class="hamburger-menu__containerBoottomTwo">
                     <a
-                    class="hamburger-menu__social"
+                      class="hamburger-menu__social"
                       href="https://telegram.me/+79168829426"
                       target="_blank"
                       rel="noreferrer"
-                      
                     >
                       <img
                         class="hamburger-menu__icon hamburger-menu__icon_margin"
@@ -148,13 +170,12 @@
                         alt="иконка Telegram"
                       />
                     </a>
-  
+
                     <a
-                    class="hamburger-menu__social"
+                      class="hamburger-menu__social"
                       href="https://vk.com/lami_ko"
                       target="_blank"
                       rel="noreferrer"
-                      
                     >
                       <img
                         class="hamburger-menu__icon hamburger-menu__icon_margin"
@@ -163,11 +184,10 @@
                       />
                     </a>
                     <a
-                    class="hamburger-menu__social"
+                      class="hamburger-menu__social"
                       href="https://wa.me/+79168829426"
                       target="_blank"
                       rel="noreferrer"
-                      
                     >
                       <img
                         class="hamburger-menu__icon"
@@ -176,7 +196,7 @@
                       />
                     </a>
                   </div>
-  
+
                   <p class="hamburger-menu__title">Адрес:</p>
                   <p class="hamburger-menu__paragraph">
                     РФ, Московская обл., Коломна, ул Девичье поле дом 12/3 , кв
@@ -223,7 +243,12 @@
               alt="картинка прайса с ценами на мои услуги"
             />
             <div class="prices__fon">
-              <button class="prices__button prices__button_pink">
+              <a
+                href="tel:+79168829426"
+                role="button"
+                aria-label="Позвонить на номер +79168829426"
+                class="prices__button prices__button_pink"
+              >
                 <span class="prices__wrapper prices__wrapper_flex">
                   <span class="prices__titleButton"
                     >Записаться на ламинирование</span
@@ -234,7 +259,7 @@
                     Запись по предоплате 300 ₽
                   </span>
                 </span>
-              </button>
+              </a>
 
               <img
                 class="prices__text"
@@ -251,78 +276,79 @@
 
         <footer class="footer">
           <div class="footer__overlay">
-          <div class="footer__wrapper">
-            <div class="footer__lamiKo">
-              <p class="footer__title">ЛамиКо</p>
-              <p class="footer__text">
-                РФ, Московская обл., Коломна, ул Девичье поле дом 12/3 , кв 100
-              </p>
-  
-              <div class="footer__container">
-                <a
-                  class="footer__social"
-                  href="https://telegram.me/+79168829426"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img
-                    class="footer__icon footer__icon_margin"
-                    src="./images/telegram_2111646.png"
-                    alt="иконка WhatsApp"
-                  />
-                </a>
-  
-                <a
-                  class="footer__social"
-                  href="https://vk.com/lami_ko"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img
-                    class="footer__icon footer__icon_margin"
-                    src="./images/vkontakte_44945172.png"
-                    alt="иконка WhatsApp"
-                  />
-                </a>
-  
-                <a
-                  class="footer__social"
-                  href="https://wa.me/+79168829426"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img
-                    class="footer__icon"
-                    src="./images/whatsapp_4494494.png"
-                    alt="иконка WhatsApp"
-                  />
-                </a>
+            <div class="footer__wrapper">
+              <div class="footer__lamiKo">
+                <p class="footer__title">ЛамиКо</p>
+                <p class="footer__text">
+                  РФ, Московская обл., Коломна, ул Девичье поле дом 12/3 , кв
+                  100
+                </p>
+
+                <div class="footer__container">
+                  <a
+                    class="footer__social"
+                    href="https://telegram.me/+79168829426"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      class="footer__icon footer__icon_margin"
+                      src="./images/telegram_2111646.png"
+                      alt="иконка WhatsApp"
+                    />
+                  </a>
+
+                  <a
+                    class="footer__social"
+                    href="https://vk.com/lami_ko"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      class="footer__icon footer__icon_margin"
+                      src="./images/vkontakte_44945172.png"
+                      alt="иконка WhatsApp"
+                    />
+                  </a>
+
+                  <a
+                    class="footer__social"
+                    href="https://wa.me/+79168829426"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      class="footer__icon"
+                      src="./images/whatsapp_4494494.png"
+                      alt="иконка WhatsApp"
+                    />
+                  </a>
+                </div>
+              </div>
+
+              <div class="footer__main">
+                <ul class="footer__lists">
+                  <li class="footer__listsTitle">
+                    <a class="footer__link" href="./index.html">Главная</a>
+                  </li>
+                  <li class="footer__listsItem">
+                    <a class="footer__link" href="./aboutMe.html">О мастере</a>
+                  </li>
+                  <li class="footer__listsItem">
+                    <a class="footer__link" href="./prices.html">Прайс лист</a>
+                  </li>
+                  <li class="footer__listsItem">
+                    <a class="footer__link" href="./questions.html">Вопросы</a>
+                  </li>
+                  <li class="footer__listsItem">
+                    <a class="footer__link" href="./contacts.html">Контакты</a>
+                  </li>
+                </ul>
               </div>
             </div>
-  
-            <div class="footer__main">
-              <ul class="footer__lists">
-                <li class="footer__listsTitle">
-                  <a class="footer__link" href="./index.html">Главная</a>
-                </li>
-                <li class="footer__listsItem">
-                  <a class="footer__link" href="./aboutMe.html">О мастере</a>
-                </li>
-                <li class="footer__listsItem">
-                  <a class="footer__link" href="./prices.html">Прайс лист</a>
-                </li>
-                <li class="footer__listsItem">
-                  <a class="footer__link" href="./questions.html">Вопросы</a>
-                </li>
-                <li class="footer__listsItem">
-                  <a class="footer__link" href="./contacts.html">Контакты</a>
-                </li>
-              </ul>
-            </div>
+
+            <p class="footer__author">&copy;2024, ЛамиКо. Все права защищены</p>
           </div>
-  
-          <p class="footer__author">&copy;2024, ЛамиКо. Все права защищены</p>
-        </div>
         </footer>
       </div>
     </div>

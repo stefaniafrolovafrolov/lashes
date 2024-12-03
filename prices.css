@@ -101,6 +101,7 @@
   align-items: center;
   transition: 0.9s ease-in-out;
   border: none;
+  text-decoration: none;
 }
 
 .prices__button:hover {

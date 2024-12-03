@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow">
     <meta
       name="description"
       content="
@@ -41,14 +42,19 @@
   </head>
   <body class="page">
     <div class="page__content">
-      <button class="pulse-button">
+      <a
+        href="tel:+79168829426"
+        class="pulse-button"
+        role="button"
+        aria-label="Позвонить на номер +79168829426"
+      >
         <span class="pulse-button__icon"></span>
-        <span class="pulse-button__text">Позвонить</span>
+        <span class="pulse-button__text">Связаться</span>
 
         <span class="pulse-button__rings"></span>
         <span class="pulse-button__rings"></span>
         <span class="pulse-button__rings"></span>
-      </button>
+      </a>
 
       <header class="header">
         <a class="header__link" href="./index.html">
@@ -226,7 +232,12 @@
 
         <section class="banners">
           <div class="banners__nav">
-            <a href="" class="banners__buton banners__buton_pink">
+            <a
+              href="tel:+79168829426"
+              role="button"
+              aria-label="Позвонить на номер +79168829426"
+              class="banners__buton banners__buton_pink"
+            >
               <span class="banners__wrapper banners__wrapper_flex">
                 <span class="banners__title">Записаться на ламинирование</span>
                 <span class="banners__title banners__title_subtitle">

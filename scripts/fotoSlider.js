@@ -37,6 +37,5 @@ function updateSlider() {
 // Инициализация слайдера
 updateSlider();
 
-
-
-
+// Автоматическая смена слайда через каждые 3 секунды (3000 мс)
+setInterval(showNextSlide, 3000);

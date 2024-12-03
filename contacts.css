@@ -11,10 +11,19 @@
   padding: 40px 0px 40px 0px;
 }
 
+@media screen and (max-width: 530px) {
+  .registration__wrap-form {
+    margin-top: 50px;
+  }
+}
+
 @media screen and (max-width: 490px) {
   .contacts__title {
     font-size: 44px;
     max-width: 450px;
+  }
+  .banners {
+    margin-bottom: 40px;
   }
 }
 
@@ -22,10 +31,6 @@
   .banners {
     margin-bottom: 40px;
   }
-}
-
-@media screen and (max-width: 340px) {
-  
 }
 
 @media screen and (max-width: 340px) {
@@ -38,6 +43,4 @@
   .banners {
     margin-bottom: 20px;
   }
-
-
 }

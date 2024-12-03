@@ -275,6 +275,12 @@
   .answers__title {
     max-width: 370px;
   }
+
+  ::placeholder {
+    font-size: 12px;
+    line-height: 14.52px;
+    padding-left: 10px;
+  }
 }
 
 @media screen and (max-width: 340px) {
