@@ -212,7 +212,7 @@ form.addEventListener("submit", function (e) {
     return; // Возвращаемся, если хотя бы одно поле не заполнено
   }
 
-  console.log(data); // Логи для дебага перед отправкой запроса
+ // console.log(data); // Логи для дебага перед отправкой запроса
 
   // Дизаблим кнопку и меняем класс перед отправкой
   submitButton.disabled = true;
