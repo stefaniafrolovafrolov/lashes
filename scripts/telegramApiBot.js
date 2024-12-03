@@ -220,7 +220,7 @@ form.addEventListener("submit", function (e) {
   submitButton.classList.add("registration__formRegisterButton_disabled");
   serverErrorMessage.style.display = "none";
 
-  fetch("http://localhost:3000/submit-form", {
+  fetch("http://localhost:3000/backend/submit-form", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -234,7 +234,7 @@ form.addEventListener("submit", function (e) {
       return response.json();
     })
     .then((data) => {
-      console.log(data);
+      //console.log(data);
       const successMessage = document.querySelector(".success-message");
       successMessage.style.display = "block"; // Показываем сообщение об успешной отправке
       form.reset(); // Очищаем форму

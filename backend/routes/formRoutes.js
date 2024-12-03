@@ -6,7 +6,7 @@ const router = express.Router();
 const { TOKEN, CHAT_ID } = process.env;
 
 // Эндпоинт для получения данных из формы
-router.post('/submit-form', async (req, res) => {
+router.post('/backend/submit-form', async (req, res) => {
   const err500 = 'Ошибка отправки сообщения в Telegram.';
   try {
     await schema.validateAsync(req.body);
