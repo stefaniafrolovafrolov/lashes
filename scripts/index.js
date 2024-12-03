@@ -1,5 +1,5 @@
 /*import { PopupWithForm } from "./PopupWithForm.js";*/
-import { FormValidator } from "./formValidator.js";
+import { formValidator } from "./formValidator.js";
 import { validationConfig } from "../utils/validationConfig.js";
 import {
   formContactRegProcedures,
@@ -7,7 +7,7 @@ import {
 } from "../utils/constants.js";
 
 //валидация формы "Записаться на процедуру"
-const formContactProceduresValidator = new FormValidator(
+const formContactProceduresValidator = new formValidator(
   validationConfig,
   formContactRegProcedures
 );
