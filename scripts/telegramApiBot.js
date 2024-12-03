@@ -220,7 +220,7 @@ form.addEventListener("submit", function (e) {
   submitButton.classList.add("registration__formRegisterButton_disabled");
   serverErrorMessage.style.display = "none";
 
-  fetch("http://localhost:3000/backend/submit-form", {
+  fetch("http://109.196.102.8/backend/submit-form", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
