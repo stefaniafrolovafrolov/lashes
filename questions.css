@@ -267,7 +267,7 @@
 @media screen and (max-width: 388px) {
   .banner-questions {
     height: 310px;
-}
+  }
   .answers__container {
     max-width: 320px;
   }
@@ -286,16 +286,15 @@
 @media screen and (max-width: 340px) {
   .banner-questions {
     height: 300px;
-}
+  }
   .answers__container {
     max-width: 300px;
   }
 
   .banner-questions__title {
     padding: 80px 0 0 10px;
+  }
 }
-}
-
 
 @media screen and (max-width: 320px) {
   .banner-questions {

@@ -34,7 +34,7 @@
   background: #0d76cc;
   box-shadow: 0 5px 35px rgba(0, 0, 0, 0.2);
   position: fixed;
-  bottom: 50px;
+  bottom: 530px;
   right: 50px;
   cursor: pointer;
   outline: none;
@@ -1692,7 +1692,7 @@ visibility: hidden;*/
 
   .banners__buton {
     max-width: 900px;
-}
+  }
 
   .footer {
     background: #ff0080;
@@ -2660,11 +2660,14 @@ visibility: hidden;*/
     height: 68%;
     z-index: 9999;
     margin: 0;
-    padding: 60px 0 0px 0;
     background: #ff0080;
     transition-duration: 0.25s;
     opacity: 0.97;
     /* outline: 22px green solid;*/
+  }
+
+  .hamburger-menu__box_padding {
+    padding: 60px 0 0px 0;
   }
 
   .hamburger-menu__logoAbsolut {
@@ -2726,12 +2729,11 @@ visibility: hidden;*/
   .banners {
     max-width: 90%;
     margin: 0 auto;
-    
-}
+  }
 
-.banners__buton {
-  max-width: 100%;
-}
+  .banners__buton {
+    max-width: 100%;
+  }
 
   /*.stock {
   background: #000000;
@@ -3043,7 +3045,6 @@ visibility: hidden;*/
     letter-spacing: -0.02em;
     width: 300px;
     margin-bottom: 20px;
-   
   }
 
   .registration__maps {
@@ -3680,7 +3681,6 @@ visibility: hidden;*/
   }
   .registration__formRegisterButton {
     width: 280px;
-    
   }
 
   .registration__maps {
@@ -3923,7 +3923,6 @@ visibility: hidden;*/
   }
   .registration__formRegisterButton {
     width: 240px;
-    
   }
 
   .my-advantages {
@@ -4064,8 +4063,6 @@ visibility: hidden;*/
   }
   .registration__formRegisterButton {
     width: 220px;
-   
-   
   }
 
   .registration__maps {
@@ -4956,7 +4953,6 @@ visibility: hidden;*/
   }*/
 
   .footer__wrapper {
-
     width: 300px;
     height: 100%;
     display: flex;

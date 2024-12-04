@@ -43,6 +43,8 @@
 }
 
 .master__foto {
+  background-size: cover;
+  object-fit: cover;
   width: 400px;
   height: 500px;
   margin: 0 auto;
@@ -887,8 +889,6 @@
     /*outline: 7px solid greenyellow;*/
   }
 
- 
-
   .master__title {
     max-width: 156px;
     font-family: Great Vibes;
@@ -905,7 +905,7 @@
   .master__text_margin {
     max-width: 500px;
     position: absolute;
-    bottom: -50px;
+    bottom: -80px;
     left: 10px;
   }
 
@@ -944,8 +944,6 @@
   .my-works__title {
     margin-bottom: 40px;
   }
-
- 
 
   .photo-gallery__photo {
     max-width: 450px;
@@ -1156,7 +1154,6 @@
   .__select {
     width: 360px;
   }
-
 }
 
 @media screen and (max-width: 420px) {
@@ -1223,7 +1220,6 @@
 
   .registration__formRegister {
     width: 320px;
-    
   }
 
   .registration__formRegisterInputName {
@@ -1244,7 +1240,6 @@
 
   .__select__title {
     width: 300px;
-    
   }
 
   .__select[data-state="active"] .__select__label {
@@ -1282,7 +1277,6 @@
     position: relative;
     /*outline: 7px solid greenyellow;*/
   }
-
 
   .master__title {
     max-width: 156px;
@@ -1452,13 +1446,11 @@
   .photo-gallery__photo {
     max-width: 300px;
     height: 300px;
-}
+  }
 
   .slider-container__slider {
     display: flex;
     transition: transform 0.5s ease-in-out;
-
-  
   }
 
   .slider-container__btnWrapper {
@@ -1498,8 +1490,6 @@
     object-fit: cover;
     background-size: cover;
   }
-
-
 
   .registration__formRegister {
     width: 300px;
@@ -1548,7 +1538,6 @@
 
   .__select__title {
     width: 280px;
-    
   }
 
   .__select[data-state="active"] .__select__label {

@@ -525,7 +525,7 @@
     width: 300px;
     height: 40px;
     border-radius: 20px;
-   /* opacity: 0;*/
+    /* opacity: 0;*/
     display: flex;
     justify-content: center;
     align-self: center;
@@ -535,10 +535,8 @@
 
   .prices__titleButton {
     font-size: 12px;
-
   }
 
- 
   .prices__fon {
     background-position: center;
     height: 150px;
@@ -562,8 +560,7 @@
 @media screen and (max-width: 360px) {
   .prices__signup {
     left: 200px;
-  
-}
+  }
 }
 
 @media screen and (max-width: 320px) {
@@ -613,7 +610,7 @@
     width: 300px;
     height: 40px;
     border-radius: 20px;
-   /* opacity: 0;*/
+    /* opacity: 0;*/
     display: flex;
     justify-content: center;
     align-self: center;
@@ -646,6 +643,4 @@
     font-size: 14px;
     line-height: 18px;
   }
-
-
 }
