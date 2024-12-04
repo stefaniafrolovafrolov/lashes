@@ -65,8 +65,7 @@
   margin-top: 42px;
 }
 
-.master__text_margin {
-}
+
 
 .my-views {
   padding-top: 80px;
@@ -1033,7 +1032,7 @@
   .master__text_margin {
     max-width: 300px;
     position: absolute;
-    bottom: -30px;
+    bottom: -40px;
     left: 25px;
   }
 
