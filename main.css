@@ -2671,6 +2671,10 @@ visibility: hidden;*/
     padding: 60px 0 0px 0;
   }
 
+  .hamburger-menu__box_padding_min {
+    padding: 25px 0 0px 0;
+  }
+
   .hamburger-menu__logoAbsolut {
     position: absolute;
     top: 5px;
