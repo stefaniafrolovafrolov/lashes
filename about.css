@@ -2,8 +2,6 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-
-  /*outline: 7px solid greenyellow;*/
 }
 
 .master__overlay {
@@ -11,7 +9,6 @@
   justify-content: space-around;
   max-width: 1090px;
   margin-top: 30px;
-  /* outline: 7px solid greenyellow;*/
 }
 
 .master__wrapper {
@@ -64,8 +61,6 @@
   max-width: 601px;
   margin-top: 42px;
 }
-
-
 
 .my-views {
   padding-top: 80px;
@@ -1028,7 +1023,6 @@
     font-size: 32px;
     padding-left: 0px;
   }
-
 
   .master__text_margin {
     max-width: 300px;
