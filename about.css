@@ -20,7 +20,6 @@
 
 .master__wrapper_container {
   display: flex;
-
   align-items: center;
 }
 
@@ -343,7 +342,7 @@
 @media screen and (max-width: 1000px) {
   .master__text {
     max-width: 480px;
-    font-size: 22px;
+   
   }
 
   .my-views__wrapper {
@@ -366,7 +365,6 @@
   .master__foto {
     width: 340px;
     height: 423px;
-    margin: 0 auto;
   }
   .master__text {
     max-width: 470px;
@@ -453,44 +451,19 @@
 }
 
 @media screen and (max-width: 834px) {
-  .master {
-    /* display: flex;
-    align-items: center;
-    justify-content: space-around;*/
-    /*outline: 7px solid greenyellow;*/
-  }
-
-  .master__wrapper {
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;*/
-  }
-
-  /*.master__wrapper_container {
-    display: flex;
-  
-    align-items: center;
-  }*/
-
   .master__title {
-    font-size: 64px;
     max-width: 320px;
     align-self: flex-start;
   }
 
-  .master__foto {
-    width: 340px;
-    height: 423px;
-    margin: 0 auto;
-  }
+
 
   .master__text {
     max-width: 435px;
     font-size: 15px;
   }
 
-  .master__text_margin {
-  }
+ 
 
   .my-views {
     padding-top: 150px;
@@ -713,7 +686,7 @@
   .master__foto {
     width: 300px;
     height: 380px;
-    margin: 0 auto;
+   
   }
 
   .my-views__wrapper {
@@ -813,8 +786,6 @@
 
   .master__text {
     max-width: 300px;
-    font-family: Inter;
-    font-size: 14px;
     line-height: 18px;
     text-align: left;
   }
@@ -878,23 +849,13 @@
 }
 
 @media screen and (max-width: 560px) {
-  .master {
-    position: relative;
-    /*outline: 7px solid greenyellow;*/
-  }
-
   .master__title {
     max-width: 156px;
     font-family: Great Vibes;
-    font-size: 42px;
-    line-height: 45px;
     max-width: 240px;
   }
 
-  .master__foto {
-    width: 235px;
-    height: 273px;
-  }
+
 
   .master__text_margin {
     max-width: 500px;
@@ -1153,7 +1114,7 @@
 @media screen and (max-width: 420px) {
   .master__foto {
     width: 135px;
-    height: 173px;
+  
   }
 
   .my-views__wrapper {
@@ -1267,11 +1228,6 @@
 }
 
 @media screen and (max-width: 320px) {
-  .master {
-    position: relative;
-    /*outline: 7px solid greenyellow;*/
-  }
-
   .master__title {
     max-width: 156px;
     font-family: Great Vibes;
@@ -1281,14 +1237,10 @@
     margin: 0px 0px 0px 10px;
   }
 
-  .master__foto {
-    width: 135px;
-    height: 173px;
-  }
+
 
   .master__text {
     max-width: 163px;
-    font-family: Inter;
     font-size: 8px;
     line-height: 12px;
     text-align: left;
