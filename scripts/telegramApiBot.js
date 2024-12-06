@@ -220,7 +220,7 @@ form.addEventListener("submit", function (e) {
   submitButton.classList.add("registration__formRegisterButton_disabled");
   serverErrorMessage.style.display = "none";
 
-  fetch("https://ламико.рф/backend/submit-form", {
+  fetch("https://xn--80aqgbgo.xn--p1ai/backend/submit-form", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
