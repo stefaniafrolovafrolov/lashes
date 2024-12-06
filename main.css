@@ -697,6 +697,8 @@ visibility: hidden;*/
 }
 
 .photo-gallery__photo {
+  background-size: cover;
+  object-fit: cover;
   width: 100%;
   height: 366px;
 }
