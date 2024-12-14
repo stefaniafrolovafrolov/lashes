@@ -1291,7 +1291,7 @@
 
   .registration__iframe {
     width: 300px;
-    min-height: 232px;
+    min-height: 32px;
   }
  
 }
