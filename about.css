@@ -342,7 +342,6 @@
 @media screen and (max-width: 1000px) {
   .master__text {
     max-width: 480px;
-   
   }
 
   .my-views__wrapper {
@@ -456,14 +455,10 @@
     align-self: flex-start;
   }
 
-
-
   .master__text {
     max-width: 435px;
     font-size: 15px;
   }
-
- 
 
   .my-views {
     padding-top: 150px;
@@ -686,7 +681,6 @@
   .master__foto {
     width: 300px;
     height: 380px;
-   
   }
 
   .my-views__wrapper {
@@ -854,8 +848,6 @@
     font-family: Great Vibes;
     max-width: 240px;
   }
-
-
 
   .master__text_margin {
     max-width: 500px;
@@ -1114,7 +1106,6 @@
 @media screen and (max-width: 420px) {
   .master__foto {
     width: 135px;
-  
   }
 
   .my-views__wrapper {
@@ -1162,19 +1153,72 @@
     height: 460px;
   }
 
+  .registration__formRegister {
+    width: 380px;
+  }
+
+  .registration__formRegisterInputName {
+    width: 340px;
+  }
+
+  .registration__formRegisterInputTelephone {
+    width: 340px;
+  }
+
+  .registration__formRegisterInputComment {
+    width: 340px;
+  }
+
+  .registration__select-container {
+    width: 340px;
+  }
+
+  .__select__title {
+    width: 340px;
+  }
+
+  .__select[data-state="active"] .__select__label {
+    width: 300px;
+  }
+
+  .__select {
+    width: 340px;
+  }
+
   .registration__maps {
-    width: 320px;
+    width: 380px;
     min-height: 332px;
     margin-bottom: 30px;
   }
 
   .registration__iframe {
-    width: 320px;
+    width: 380px;
     min-height: 332px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .master__title {
+    max-width: 200px;
+    font-size: 30px;
+    padding-left: 0px;
+    margin-left: 30px;
+  }
+
+  .master__text {
+    max-width: 200px;
+    margin-left: 20px;
+  }
+
+  .master__text_margin {
+    max-width: 300px;
+    position: absolute;
+    bottom: -40px;
+    left: 10px;
   }
 
   .registration__formRegister {
-    width: 320px;
+    width: 330px;
   }
 
   .registration__formRegisterInputName {
@@ -1198,7 +1242,7 @@
   }
 
   .__select[data-state="active"] .__select__label {
-    width: 260px;
+    width: 280px;
   }
 
   .__select {
@@ -1206,25 +1250,50 @@
   }
 }
 
-@media screen and (max-width: 380px) {
-  .master__title {
-    max-width: 200px;
-    font-size: 30px;
-    padding-left: 0px;
-    margin-left: 30px;
+@media screen and (max-width: 340px) {
+  .registration__formRegister {
+    width: 300px;
   }
 
-  .master__text {
-    max-width: 200px;
-    margin-left: 20px;
+  .registration__formRegisterInputName {
+    width: 280px;
   }
 
-  .master__text_margin {
-    max-width: 300px;
-    position: absolute;
-    bottom: -40px;
-    left: 10px;
+  .registration__formRegisterInputTelephone {
+    width: 280px;
   }
+
+  .registration__formRegisterInputComment {
+    width: 280px;
+  }
+
+  .registration__select-container {
+    width: 280px;
+  }
+
+  .__select__title {
+    width: 280px;
+  }
+
+  .__select[data-state="active"] .__select__label {
+    width: 240px;
+  }
+
+  .__select {
+    width: 280px;
+  }
+
+  .registration__maps {
+    width: 300px;
+    min-height: 232px;
+    margin-bottom: 30px;
+  }
+
+  .registration__iframe {
+    width: 300px;
+    min-height: 232px;
+  }
+ 
 }
 
 @media screen and (max-width: 320px) {
@@ -1236,8 +1305,6 @@
     max-width: 176px;
     margin: 0px 0px 0px 10px;
   }
-
-
 
   .master__text {
     max-width: 163px;
@@ -1494,16 +1561,7 @@
     width: 280px;
   }
 
-  .registration__maps {
-    width: 300px;
-    min-height: 332px;
-    margin-bottom: 30px;
-  }
 
-  .registration__iframe {
-    width: 300px;
-    min-height: 332px;
-  }
 
   .registration__wrap-form_reverse {
     flex-flow: wrap;
