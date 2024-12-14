@@ -51,6 +51,12 @@
   color: #ffffff;
   background: #000;
   border: 1px solid white;
+  cursor: pointer;
+}
+
+.error__redirect {
+  text-decoration: none;
+  color: #ffffff;
 }
 
 @media screen and (max-width: 867px) {
